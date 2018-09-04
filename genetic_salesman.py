@@ -1,8 +1,6 @@
 """
   genetic_salesman.py
   Heuristic travelling salesman solver using genetic optimisation
-
-  Tom Nijhuis 2018
 """
 
 
