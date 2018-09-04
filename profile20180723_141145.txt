@@ -1,0 +1,60 @@
+         2259528 function calls in 19.315 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      178    5.973    0.034    5.979    0.034 {method 'choice' of 'mtrand.RandomState' objects}
+   150000    4.004    0.000    4.651    0.000 C:\Anaconda3\lib\site-packages\numpy\lib\arraysetops.py:385(in1d)
+       50    2.770    0.055    4.419    0.088 P:\Dropbox\Programming\Git repo\genetic_salesman_GIT_TODO\genetic_salesman.py:148(cost_me)
+      300    1.961    0.007    1.961    0.007 {built-in method numpy.core.multiarray.concatenate}
+      100    1.195    0.012    6.381    0.064 P:\Dropbox\Programming\Git repo\genetic_salesman_GIT_TODO\genetic_salesman.py:212(crossover)
+       50    1.083    0.022    1.083    0.022 {method 'argsort' of 'numpy.ndarray' objects}
+       50    0.501    0.010    6.836    0.137 P:\Dropbox\Programming\Git repo\genetic_salesman_GIT_TODO\genetic_salesman.py:127(add_to_population)
+       50    0.413    0.008    0.454    0.009 P:\Dropbox\Programming\Git repo\genetic_salesman_GIT_TODO\genetic_salesman.py:36(path_length)
+   150000    0.318    0.000    0.318    0.000 {built-in method numpy.core.multiarray.zeros}
+   450100    0.276    0.000    0.334    0.000 C:\Anaconda3\lib\site-packages\numpy\core\numeric.py:463(asarray)
+   150000    0.271    0.000    5.173    0.000 C:\Anaconda3\lib\site-packages\numpy\lib\arraysetops.py:491(isin)
+      128    0.112    0.001    0.112    0.001 {method 'flatten' of 'numpy.ndarray' objects}
+   150050    0.111    0.000    0.111    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+   300000    0.098    0.000    0.098    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+      100    0.072    0.001    0.092    0.001 P:\Dropbox\Programming\Git repo\genetic_salesman_GIT_TODO\genetic_salesman.py:162(mutate)
+   450900    0.058    0.000    0.058    0.000 {built-in method numpy.core.multiarray.array}
+   451050    0.037    0.000    0.037    0.000 {built-in method builtins.len}
+      178    0.017    0.000    0.017    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+       50    0.009    0.000    0.009    0.000 {method 'permutation' of 'mtrand.RandomState' objects}
+       50    0.009    0.000   19.314    0.386 P:\Dropbox\Programming\Git repo\genetic_salesman_GIT_TODO\genetic_salesman.py:94(evolve)
+      100    0.008    0.000    0.008    0.000 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.002    0.002   19.315   19.315 P:\Dropbox\Programming\Git repo\genetic_salesman_GIT_TODO\genetic_salesman.py:262(profile_me)
+      234    0.002    0.000    0.002    0.000 {method 'randint' of 'mtrand.RandomState' objects}
+      128    0.002    0.000    0.005    0.000 C:\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:2408(prod)
+      400    0.001    0.000    0.002    0.000 C:\Anaconda3\lib\site-packages\numpy\core\shape_base.py:11(atleast_1d)
+      400    0.001    0.000    0.002    0.000 C:\Anaconda3\lib\site-packages\numpy\core\shape_base.py:63(atleast_2d)
+      800    0.001    0.000    0.001    0.000 C:\Anaconda3\lib\site-packages\numpy\core\numeric.py:534(asanyarray)
+      150    0.001    0.000    0.001    0.000 {built-in method numpy.core.multiarray.empty}
+      250    0.001    0.000    1.086    0.004 C:\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:55(_wrapfunc)
+      150    0.001    0.000    1.930    0.013 C:\Anaconda3\lib\site-packages\numpy\core\shape_base.py:182(vstack)
+      356    0.001    0.000    0.001    0.000 C:\Anaconda3\lib\site-packages\numpy\core\_internal.py:241(__init__)
+      150    0.001    0.000    0.037    0.000 C:\Anaconda3\lib\site-packages\numpy\core\shape_base.py:239(hstack)
+       50    0.001    0.000    0.015    0.000 C:\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:1730(sum)
+      100    0.000    0.000    0.001    0.000 C:\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:42(_wrapit)
+       50    0.000    0.000    0.000    0.000 P:\Dropbox\Programming\Git repo\genetic_salesman_GIT_TODO\genetic_salesman.py:141(trim_population)
+      150    0.000    0.000    0.003    0.000 C:\Anaconda3\lib\site-packages\numpy\core\shape_base.py:288(<listcomp>)
+       50    0.000    0.000    1.083    0.022 C:\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:826(argsort)
+      150    0.000    0.000    0.002    0.000 C:\Anaconda3\lib\site-packages\numpy\core\shape_base.py:237(<listcomp>)
+      350    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      100    0.000    0.000    0.003    0.000 C:\Anaconda3\lib\site-packages\numpy\core\numeric.py:818(argwhere)
+      800    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      128    0.000    0.000    0.003    0.000 C:\Anaconda3\lib\site-packages\numpy\core\_methods.py:34(_prod)
+      100    0.000    0.000    0.001    0.000 C:\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:1487(nonzero)
+      100    0.000    0.000    0.000    0.000 {method 'nonzero' of 'numpy.ndarray' objects}
+      112    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       50    0.000    0.000    0.014    0.000 C:\Anaconda3\lib\site-packages\numpy\core\_methods.py:31(_sum)
+       50    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+      100    0.000    0.000    0.002    0.000 C:\Anaconda3\lib\site-packages\numpy\core\fromnumeric.py:504(transpose)
+      356    0.000    0.000    0.000    0.000 C:\Anaconda3\lib\site-packages\numpy\core\_internal.py:266(get_data)
+       64    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+      100    0.000    0.000    0.000    0.000 {method 'transpose' of 'numpy.ndarray' objects}
+       64    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

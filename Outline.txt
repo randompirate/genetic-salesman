@@ -1,0 +1,36 @@
+
+
+== 1 Create nodes
+count = K
+circle + noise
+remove close ones
+
+
+== 2 real TSP
+
+
+
+== 3 genetic TSP
+
+cost funtion = sum(distance(ni, ni+1)) + dist(n1, nk)
+
+permute 0,_,k
+
+normalise:
+  always start with node 0
+
+mutate:
+  X - swap random nodes
+  V - insert nodes back to front, front to back?      [Start with this]
+  V - swap pairwise (combat crossing paths)           [End with this]
+  ? - permute couple of final nodes
+
+crossover:
+
+
+
+== 4 intelligence:
+  look for crossing path?
+
+
+
